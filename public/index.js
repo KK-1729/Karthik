@@ -1,9 +1,9 @@
 var animate = ScrollReveal();
 
-animate.reveal('.right, .nav-right , #skills, #projects' , {
+animate.reveal('.right, #skills, #projects' , {
     delay: 500
 }); 
-animate.reveal('.navbar-brand, .nav-link', {
+animate.reveal('.navbar-brand', {
     delay: 750
 });
 animate.reveal('.left-name', {
