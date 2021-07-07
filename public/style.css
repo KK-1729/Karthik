@@ -1,8 +1,8 @@
 html, body {
     scroll-behavior: smooth;
-    height: 100%;
+    /* height: 100%;
     width: 100%;
-    margin: 0;
+    margin: 0; */
 }
 
 /* NAVBAR */
@@ -41,7 +41,7 @@ html, body {
     color: #FFFFFF;
 }
 .nav-right .nav-item {
-    margin-left: 15%;
+    margin-left: 3vw;
 }
 .nav-right .home-link {
     margin-left: 5%;
@@ -120,7 +120,7 @@ html, body {
     margin-top: 15%;
     font-weight: normal;
     font-style: normal;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 36px;
     color: #535353;
 }
@@ -139,14 +139,15 @@ html, body {
 .right-circle {
     position: absolute;
     background-color: rgba(72, 163, 192, 0.5);
-    top: 120%;
-    right: -7.5%;
+    top: 140vh;
+    right: -8.5%;
     margin-right: 0;
     transform: translate(-50%, -50%);
     height: 200px;
     width: 400px;
     border-radius: 200px 200px 0 0;
     transform: rotateZ(-90deg);
+    z-index: -1;
 }
 .left-circle {
     position: absolute;
@@ -193,7 +194,7 @@ html, body {
     transform: translateY(-15%);
 }
 .webdev-card {
-    transform: scale(0.8);
+    transform: scale(0.8) scaleX(1.1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -268,9 +269,9 @@ html, body {
     font-style: normal;
     text-align: center;
 }
-.project-content {
+/* .project-content {
     transform: scale(1.2);
-}
+} */
 .face-card .project-text {
     margin-top: 5%;
     margin-bottom: 9%;
@@ -295,6 +296,7 @@ html, body {
    bottom: -350%;
    padding: 7%;
    background-color: #FFFFFF;
+   z-index: 0;
 }
 
 /* FOOTER */

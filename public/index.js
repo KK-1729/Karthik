@@ -24,7 +24,7 @@ animate.reveal('.right-name', {
 animate.reveal('.caption-right', {
     delay: 3500
 });
-animate.reveal('.about-head, .skills-head, .projects-head, #footer a', {
+animate.reveal('.about-head, .skills-head, .projects-head', {
     delay: 1000
 });
 animate.reveal('.picture', {
